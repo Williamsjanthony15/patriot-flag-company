@@ -1,0 +1,38 @@
+title {
+    font-size: xx-large;
+    font-style: initial;
+    padding: 5px
+    margin: 15px
+    Underline: 5px black solid
+}
+
+h1 {
+    font-size: large;
+    font-weight: 100;
+    font-style: oblique;
+    outline: 5px black solid;
+    font-family: "Times New Roman";
+}
+li {
+    padding: 15px
+    margin: 10px
+    font-size: large;
+    outline: 1px black solid;
+}
+
+h2 {
+    padding: 5px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 5px;
+    outline: 5px black solid
+}
+p {
+    font-size: xxlarge;
+    font-color: #104030
+    }
+footer {
+    font-size: 15px;
+    font-weight: 10px;
+    text-underline-position: below;
+}
