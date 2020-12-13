@@ -1,18 +1,24 @@
+console.log("welcome!")
+
+var myVariableName = " Welcome to Patriotic Flag Company"
+console.log(myVariableName) ; 
 
 
+var promptQuestion = "what is our statues name?"
+var response = prompt (promptQuestion);
+console.log(response);
 
+var alertMessage;
 
-var PatriotsFC;
-PatriotsFC = "Welcome to Patriotic Flag Company")
-console.log(1776)
-
-var promtquestion = "What year was the Army established?"
-var (1776) = prompt ("What year was the Army established?");
-console.log(1776);
-if (response === "1776") {
-    console.log("Congradulations")
-} else if (response === "1775") {
-    console.log("You're Wrong"); 
-} else { 
-    console.log("You're not even close")
+if (response === "Statue of Libery") {
+    alertMessage = "Congradulations"
+    color = "#00FF00";
+} else if (response === "Statue of Godess") {
+    alertMessage = "You're Wrong";
+    color = "#010205"; 
+} else {
+    color = "#FF0020" 
+    alertMessage = "You're not even close"
 }
+
+alert(alertMessage);

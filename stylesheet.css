@@ -14,6 +14,7 @@ h1 {
     padding: 5px;
     margin: 10px;
     font-size: large;
+    font: black
     font-weight: 20px;
     outline: 10px black solid;
     font-family: 'Times New Roman', Times, serif;
@@ -29,22 +30,25 @@ h2 {
     padding: 5px;
     margin: 10px;
     font-size: large;
+    font: black;
     font-weight: 20px;
     outline: 10px black solid;
     font-family: 'Times New Roman', Times, serif;
 }
-/* p1 {
+p1 {
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
+    color: blue;
     float: inherit;
     outline: auto;
     padding-bottom: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    padding-top: 5px; */
+    padding-top: 5px;
 }
 p2 { font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
+    color: red
     float: left;
     outline: auto;
     padding-bottom: 5px;
@@ -59,10 +63,10 @@ footer {
     text-underline-position: below;
     border-bottom: 10px;
 }
-/* #First-Picture {
+ #First-Picture {
     float: left;
     width: 150px;
-    height: 100px; */
+    height: 100px; 
 }
 
 #second-picture {
