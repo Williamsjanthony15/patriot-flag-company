@@ -43,8 +43,8 @@ if (response === "hello hello!") {
 }
 
 var msg = 'Thanks for visiting my site, If you donate now, Patriot Flag Company will match your donation dollar for dollar';
-function updateMessage() [
+function updateMessage() {
     var el = document.getElementById('message');
     el.textContent = msg;
-]
+}
 updateMessage();
