@@ -1,9 +1,6 @@
 
-
-
-
 title {
-    font-size: xx-large;
+    font-size: x-large;
     font-style: initial;
     padding: 5px;
     margin: 15px;
@@ -11,17 +8,24 @@ title {
 
 h1 {
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     font-size: large;
     font: black;
     font-weight: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+ body {
+    background-image: url(https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag.jpg);
+    background-size: cover;
+    background-image: none;
+    opacity: 1
+    }
+   
 li {
-    padding: 15px;
-    margin: 10px;
+    padding: 0px;
+    margin: 5px;
     font-size: large;
-    outline: 1px black solid;
+    outline-width: 2px;
 }
 
 h2 {
@@ -34,40 +38,28 @@ h2 {
 }
 
 p1 {
-    font-size: xx-large;
+    font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    color: blue;
-    float: inherit;
-    padding-bottom: 5px;
+    color: black
+    float: inline-start;
+    padding-bottom: 40px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
     padding-top: 5px;
 }
 
-p2 { font-size: xx-large;
+p2 { font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    color: red;
+    color: black;
     float: left;
     padding-bottom: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    padding-top: 5px;
+    padding-top: 40px;
 }
 
 footer {
-    font-size: x-large;
-    color: black
-    border-bottom: 10px;
+    font-size: small;
+    color: black;
+    float: inherit;
 }
- #First-Picture {
-    float: left;
-    width: 150px;
-    height: 100px; 
-}
-
-#second-picture {
-    float: right;
-    width: 150px;
-    height: 100px;
-}
-

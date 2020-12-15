@@ -1,50 +1,26 @@
-console.log("welcome!")
+console.log("Hey im actually doing this!")
 
-var myVariableName = " Welcome to Patriotic Flag Company"
-console.log(myVariableName) ; 
-
-
-var promptQuestion = "what is our statues name?"
-var response = prompt (promptQuestion);
-console.log(response);
-
-var alertMessage;
-
-if (response === "Statue of Liberty") {
-    alertMessage = "Congradulations"
-    color = "#00FF00";
-} else if (response === "Statue of Godess") {
-    alertMessage = "You're Wrong";
-    color = "#010205"; 
-} else {
-    color = "#FF0020" 
-    alertMessage = "You're not even close"
-}
-
-alert(alertMessage);
-
-function sayHello() {
-    document.write('Hello!');
+// Here is the function and you declared it but you havent called it. Call it by >> sayHello(); Doing the function that you identified.
+function taskOne() {
+    var promptQuestion = "How American are you?";
+    var response = prompt(promptQuestion);
 } 
+var alertMessage;
+var color; 
 
-var proptQuestion = "Dont know why you say goodbye when you can say hello?"
-var response = prompt (promptQuestion);
-console.log(response);
 
-if (response === "hello hello!") {
-    alertMessage = "HEY! Nice job! You know music!"
+if (response === "As American As it Gets") {
+    alertMessage = "Well, You have an American Day";
     color = "blue";
-} else if (response === "hello goodbye"){
-    alertMessage = "Goodbye Goodbye"
+}   else {
+    alertMessage = "That's Alright, America is land of the Free and home of the Brave"
     color = "red";
-} else { 
-    color = "green"
-    alertMessage = "I cant believe you dont even know..."
 }
+document.getElementById("content").style.backgroundColo = color;
 
-var msg = 'Thanks for visiting my site, If you donate now, Patriot Flag Company will match your donation dollar for dollar';
-function updateMessage() {
-    var el = document.getElementById('message');
-    el.textContent = msg;
-}
-updateMessage();
+
+// Also done correctly but no call or declare for the colors. Your not saying what the colors are for nor what there supposed to do. Take the free code that JS gives you.... document.getElecmentById("content").style.backgroundColo = color;
+
+//important
+//document.getElecmentById("content").style.backgroundColo = ;
+//document.getElecmentById("content").style.backgroundColo = color;
