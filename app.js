@@ -1,34 +1,45 @@
-console.log("welcome!")
+console.log("welcome!");
 
-var myVariableName = " Welcome to Patriotic Flag Company"
-console.log(myVariableName) ; 
+// Create a variable to hold a console message
+var myVariableName = "Welcome to Patriotic Flag Company";
 
+// Print the message to console
+console.log(myVariableName); 
 
-var promptQuestion = "what is our statues name?"
-var response = prompt (promptQuestion);
+// Create a variable to hold prompt message
+var promptQuestion = "what is our statues name!";
+
+// Call the prompt function and save return value in variable
+var response = prompt(promptQuestion);
+
+// Print the response to console
 console.log(response);
 
+// CREATE the variable
 var alertMessage;
 
+// If user input matches "Statue of Liberty"
 if (response === "Statue of Liberty") {
-    alertMessage = "Congradulations"
-    color = "#00FF00";
+    // ASSIGN the variable a VALUE
+    alertMessage = "Congradulations" // set an alertMessage
+    color = "#00FF00"; // set a color...for something?
+
+// If user input matches "Statue of Godess"
 } else if (response === "Statue of Godess") {
     alertMessage = "You're Wrong";
     color = "#010205"; 
+
+// Catch-all for every other response
 } else {
-    color = "#FF0020" 
     alertMessage = "You're not even close"
+    color = "#FF0020" 
 }
 
+// alert returns nothing
 alert(alertMessage);
 
-function sayHello() {
-    document.write('Hello!');
-} 
-
-var proptQuestion = "Dont know why you say goodbye when you can say hello?"
-var response = prompt (promptQuestion);
+var proptQuestion = "Dont know why you say goodbye when you can say hello?";
+var response = prompt(proptQuestion);
 console.log(response);
 
 if (response === "hello hello!") {
@@ -42,9 +53,14 @@ if (response === "hello hello!") {
     alertMessage = "I cant believe you dont even know..."
 }
 
+alert(alertMessage);
+
+document.body.style.backgroundColor = color;
+
 var msg = 'Thanks for visiting my site, If you donate now, Patriot Flag Company will match your donation dollar for dollar';
-function updateMessage() {
-    var el = document.getElementById('message');
-    el.textContent = msg;
+
+function sayHello() {
+    document.write('Hello!');
 }
-updateMessage();
+
+sayHello();
