@@ -2,29 +2,28 @@ console.log("Hey im actually doing this!")
 
 // Here is the function and you declared it but you havent called it. Call it by >> sayHello(); Doing the function that you identified.
 
-function add(a, b) {
-    var result = a + b;
-    return(result);
+// function add(a, b) {
+//     var result = a + b;
+//     return(result);
     
-}
-    var result = ("17" + 76);
-   alert(result);
+// }
+//     var result = ("17" + 76);
+//    alert(result);
 
 // for (var A = 0; A < 10; A+++) {
 //   document.write(A)
 // }
-for (var A = 0; A >= 100; A++) {
-  console.log
+for (var A = 0; A <= 100; A++) {
+  console.log(A);
 }
 
-function ValidateUserPassword() {
-    var passwd = "13 Orginal Colonies";
-    var pass;
 
-    while(pass === passwd){
+    do {
+      function validateUserPassword() {
+        var passwd = "13 Orginal Colonies";
+        var pass;
+    }while(validateUserPassword)
 
-    }
-// }
 
 // var passwd = "13 orginal colonies"; 
 // var msg = "What do the stripes on the American Flag repersent?";
