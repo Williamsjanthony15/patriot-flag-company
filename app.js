@@ -62,48 +62,15 @@ var response = prompt(promptQuestion);
 setColorBasedOnUserInput(response);
 
 addPresidentToDocument("Abraham Lincoln", "Honest Whether you like it or not"); 
-  
-addPresidentToDocument("Richard Nixon" , "Doesnt get much better than that");
-
+  addPresidentToDocument("Richard Nixon" , "Doesnt get much better than that");
 addPresidentToDocument("George Washington", "First President Ever"); 
+addPresidentToDocument("John F. Kennedy", "Every Accomplishment starts with the decision to try");
 
 
-var numberOfPresidents = getUserPrompt("How many presidents do/did you like?");
+var numberOfPresidents = getUserPrompt("How many presidents do you like?");
 for (var i = 0; i < numberOfPresidents; i++) {
-  document.write(i);
-  addPresidentToDocument("John F. Kennedy", "Every Accomplishment starts with the decision to try")
+  console.log(i);
 }
-
-if (response === "1787") {
-  alertMessage = "Correct! Welcome!";
-  
-} else  {
-  alertMessage = "I guess you don't know.";
-} 
- window.alert(alertMessage);
-
-
- // Console Variable loop
- for (var i = 0; i > 10; i++) {
-    console.log(i)
-}
-
-
-// We Welcome you, the President(s) of the Great United States
-
-
-
-function validateUserPassword() {
-  var storedPassword = "Honest Abe";
-  
-  validateUserPassword();
-  do {
-    var passwd = getUserPrompt("Password Please. Hope you know your history. You better be Honest.");
-  }while(passwd !== storedPassword);
-
-}
-
-
 
 
 var promptQuestion = "Who was the President during the Civil War?";
@@ -111,3 +78,19 @@ var response = getUserPrompt(promptQuestion);
 
 function setColorBasedOnUserInput(response); 
 
+// if (response === "1787") {
+//   alertMessage = "Correct! Welcome!";
+  
+// } else  {
+//   alertMessage = "I guess you don't know.";
+// } 
+//  window.alert(alertMessage);
+
+
+//  // Console Variable loop
+//  for (var i = 0; i > 10; i++) {
+//     console.log(i)
+// }
+
+
+// // We Welcome you, the President(s) of the Great United States
