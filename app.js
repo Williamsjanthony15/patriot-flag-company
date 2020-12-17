@@ -1,91 +1,65 @@
 
-function addPresidentToDocument(presidentName, description); {
-    
+
+function addPresidentToDocument(presidentName, description) {
+  
   if(presidentName === "Abraham Lincoln") {
-      description = "Abraham Lincoln was the President during the Civil War in 1787. He was known to be very Honest.";
-    } 
-    
-    document.write("<section> \
-        <h2>" + presidentName + "</h2> \
-        <img src=\"Abraham Lincoln" + presidentName + ".jpg\"> \
-        <p>" + presidentName" + description + ".</p> \
-      </section>");
-
-}
-// Initial Question into the page
-var promptQuestion = "What year was the American Constitution signed?";
-var response = prompt(promptQuestion);
-
-if (response === "1787") {
-  alertMessage = "Correct! Welcome!";
-
-} else  {
-  alertMessage = "I guess you don't know.";
-} 
- window.alert(alertMessage);
-
- // Validation Password
- function validateUserPassword() {
-   var storedPassword = "HonestAbe"
-
-   do {
-
-    var passwd = getUserPrompt("Enter a pasword");
-  } while(passwd !== storedPassword);
- }
-
- // Console Variable loop
- for (var i = 0; i > 10; i++) {
-    console.log(i)
+    description = "Abraham Lincoln was the President during the Civil War in 1787. He was known to be very Honest.";
+  } 
+  
+  document.write('<img src="images/Abraham Lincoln.jpg">');
+  
 }
 
-function getUserPrompt(message) {
-
+function getUserPrompt(message){
+  
   var userInput = prompt(message);
-
+  
   return userInput;
 }
 
-function sayMessage(message) {
-    alert(message);
-}
-// We Welcome you, the President(s) of the Great United States
 
-function setColorBasedOnUserInput(userInput) {
+function sayMessage(message) {
+  alert(message);
+}
+
+
+function setColorBasedOnUserInput(userResponse) {
 
   var color; 
-
-  if (userInput === "Abraham Lincoln") {
+  
+  if (userResponse === "Abraham Lincoln") {
     color = "red";
-  } else if (userInput === "Richard M. Nixon") {
+  } else if (userResponse === "Richard M. Nixon") {
     color = "red";
-  } else if (userInput === "John F. Kennedy") {
+  } else if (userResponse === "John F. Kennedy") {
     color = "blue";
-  } else if (userInput === "Franklin D. Rosevelt") {
+  } else if (userResponse === "Franklin D. Rosevelt") {
     color = "blue";
   }
-
-// requires HTML element with the label of "Content"
-document.getElementById("content").style.backgroundColor = color; 
+  
+  
+  // requires HTML element with the label of "Content"
+  document.getElementById("content").style.backgroundColor = color; 
 }
 
+// Validation Password
 function validateUserPassword() {
-  var storedPassword = "Honest Abe";
-  
+  var storedPassword = "HonestAbe";
+
   do {
-    var passwd = getUserPrompt("Password Please. Hope you know your history. You better be Honest.");
-  }while(passwd !== storedPassword);
+
+   var passwd = getUserPrompt("Enter a pasword");
+ }while(passwd !== storedPassword);
 
 }
 
 validateUserPassword();
 
+  // Initial Question into the page
+var promptQuestion = "What year was the American Constitution signed?";
+var response = prompt(promptQuestion);
 
-
-var promptQuestion = "Who was the President during the Civil War?";
-var response = getUserPrompt(promptQuestion);
-
-function setColorBasedOnUserInput(response); 
+setColorBasedOnUserInput(response);
 
 addPresidentToDocument("Abraham Lincoln", "Honest Whether you like it or not"); 
   
@@ -97,4 +71,43 @@ addPresidentToDocument("George Washington", "First President Ever");
 var numberOfPresidents = getUserPrompt("How many presidents do/did you like?");
 for (var i = 0; i < numberOfPresidents; i++) {
   document.write(i);
+  addPresidentToDocument("John F. Kennedy", "Every Accomplishment starts with the decision to try")
 }
+
+if (response === "1787") {
+  alertMessage = "Correct! Welcome!";
+  
+} else  {
+  alertMessage = "I guess you don't know.";
+} 
+ window.alert(alertMessage);
+
+
+ // Console Variable loop
+ for (var i = 0; i > 10; i++) {
+    console.log(i)
+}
+
+
+// We Welcome you, the President(s) of the Great United States
+
+
+
+function validateUserPassword() {
+  var storedPassword = "Honest Abe";
+  
+  validateUserPassword();
+  do {
+    var passwd = getUserPrompt("Password Please. Hope you know your history. You better be Honest.");
+  }while(passwd !== storedPassword);
+
+}
+
+
+
+
+var promptQuestion = "Who was the President during the Civil War?";
+var response = getUserPrompt(promptQuestion);
+
+function setColorBasedOnUserInput(response); 
+
