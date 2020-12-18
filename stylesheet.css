@@ -17,7 +17,7 @@ h1 {
  
 body {
     background-image: url(https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag.jpg);
-     background-size: 20px;
+     background-size: 10px;
      background-image: none;
      opacity: 1;
      transform: rotate;
@@ -43,11 +43,12 @@ p1 {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     color: black
-    padding-bottom: 40px;
+}
+    /* padding-bottom: 40px;
     margin-right: 10px;
     margin-left: 100px;
     padding-top: 5px;
-}
+} */
 
 p2 { font-size: large;
     font-family: 'Times New Roman', Times, serif;
@@ -65,9 +66,10 @@ footer {
     float: inherit;
 }
 
-.Content {
-    background-color: blue;
-}
-
-
+#First-Picture {
+    background-image: url(path);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+    }
 

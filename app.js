@@ -6,7 +6,7 @@ function addPresidentToDocument(presidentName, description) {
     description = "Abraham Lincoln was the President during the Civil War in 1787. He was known to be very Honest.";
   } 
   
-  document.write('<img src="images/Abraham Lincoln.jpg">');
+  document.write('<img src="images/Abraham_Lincoln.jpg">');
   
 }
 
@@ -25,16 +25,17 @@ function sayMessage(message) {
 
 function setColorBasedOnUserInput(userResponse) {
 
-  var color; 
   
   if (userResponse === "Abraham Lincoln") {
-    color = "red";
+    color = "red"
   } else if (userResponse === "Richard M. Nixon") {
     color = "red";
   } else if (userResponse === "John F. Kennedy") {
     color = "blue";
   } else if (userResponse === "Franklin D. Rosevelt") {
     color = "blue";
+  } else {
+    Color = black;
   }
   
   
@@ -59,38 +60,13 @@ validateUserPassword();
 var promptQuestion = "What year was the American Constitution signed?";
 var response = prompt(promptQuestion);
 
-setColorBasedOnUserInput(response);
-
 addPresidentToDocument("Abraham Lincoln", "Honest Whether you like it or not"); 
-  addPresidentToDocument("Richard Nixon" , "Doesnt get much better than that");
+addPresidentToDocument("Richard Nixon" , "Doesnt get much better than that");
 addPresidentToDocument("George Washington", "First President Ever"); 
 addPresidentToDocument("John F. Kennedy", "Every Accomplishment starts with the decision to try");
 
 
 var numberOfPresidents = getUserPrompt("How many presidents do you like?");
 for (var i = 0; i < numberOfPresidents; i++) {
-  console.log(i);
+  console.log(addPresidentToDocument);
 }
-
-
-var promptQuestion = "Who was the President during the Civil War?";
-var response = getUserPrompt(promptQuestion);
-
-function setColorBasedOnUserInput(response); 
-
-// if (response === "1787") {
-//   alertMessage = "Correct! Welcome!";
-  
-// } else  {
-//   alertMessage = "I guess you don't know.";
-// } 
-//  window.alert(alertMessage);
-
-
-//  // Console Variable loop
-//  for (var i = 0; i > 10; i++) {
-//     console.log(i)
-// }
-
-
-// // We Welcome you, the President(s) of the Great United States
